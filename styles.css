@@ -132,9 +132,9 @@ h3 { font-size: 2rem; }
 .product-card { background: #fffaf3; border: 1px solid var(--line); }
 .featured-card { margin-top: 48px; }
 .product-image { min-height: 420px; background-size: cover; background-position: center; filter: saturate(.9); }
-.shell-one { background: linear-gradient(rgba(248,245,239,.08), rgba(248,245,239,.08)), url('assets/RedShellNecklace.png') center/cover; }
-.shell-two  { background: linear-gradient(rgba(248,245,239,.08), rgba(248,245,239,.08)), url('assets/RedShell.png') center/cover; }
-.shell-three  { background: linear-gradient(rgba(248,245,239,.08), rgba(248,245,239,.08)), url('assets/WhiteShellWithPearl.png') center/cover; }
+.shell-one { background: linear-gradient(rgba(248,245,239,.08), rgba(248,245,239,.08)), url('RedShellNecklace.png') center/cover; }
+.shell-two  { background: linear-gradient(rgba(248,245,239,.08), rgba(248,245,239,.08)), url('RedShell.png') center/cover; }
+.shell-three  { background: linear-gradient(rgba(248,245,239,.08), rgba(248,245,239,.08)), url('WhiteShellWithPearl.png') center/cover; }
 .product-copy { padding: 28px; }
 .product-copy p { color: var(--ink-soft); margin: 12px 0 18px; }
 .product-copy span { font-weight: 700; letter-spacing: .08em; }
