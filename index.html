@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tide & Shell | Handmade Coastal Jewellery</title>
+  <meta name="description" content="Handmade coastal jewellery inspired by slow South Coast afternoons, natural shells, freshwater pearls and sun-warmed linen." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a class="logo" href="#top">Tide & Shell</a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#shop">Shop</a>
+      <a href="#story">Story</a>
+      <a href="#journal">Journal</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu-button" aria-label="Open menu">Menu</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-image">
+        <img src="assets/moodboard.jpeg" alt="Shell jewellery making on linen with coastal picnic details" />
+      </div>
+      <div class="hero-content">
+        <p class="eyebrow">Handmade on the South Coast</p>
+        <h1>Jewellery inspired by slow coastal days.</h1>
+        <p>Natural shell pieces, freshwater pearls and sea-soft textures made for sunlit afternoons, beach dinners and everyday rituals.</p>
+        <div class="hero-actions">
+          <a class="button" href="#shop">Shop the collection</a>
+          <a class="text-link" href="#story">Our story</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro-strip">
+      <p>Small batch pieces · natural textures · coastal keepsakes · made slowly by hand</p>
+    </section>
+
+    <section class="collection section" id="shop">
+      <div class="section-heading">
+        <p class="eyebrow">The first collection</p>
+        <h2>Pieces that feel like summer kept close.</h2>
+      </div>
+      <div class="product-grid">
+        <article class="product-card">
+          <div class="product-image shell-one"></div>
+          <div class="product-copy">
+            <h3>The Cove Earrings</h3>
+            <p>Natural shell drops with gold-toned detailing.</p>
+            <span>£28</span>
+          </div>
+        </article>
+        <article class="product-card featured-card">
+          <div class="product-image shell-two"></div>
+          <div class="product-copy">
+            <h3>The Drift Necklace</h3>
+            <p>A delicate chain with hand-selected shell charm.</p>
+            <span>£36</span>
+          </div>
+        </article>
+        <article class="product-card">
+          <div class="product-image shell-three"></div>
+          <div class="product-copy">
+            <h3>The Pearl Tide Bracelet</h3>
+            <p>Freshwater pearl inspired with soft coastal detail.</p>
+            <span>£32</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="story section" id="story">
+      <div class="story-media">
+        <img src="assets/RedShell.png" alt="Handmade shell jewellery moodboard" />
+      </div>
+      <div class="story-copy">
+        <p class="eyebrow">Collected, chosen, made</p>
+        <h2>Not just beach jewellery. A coastal keepsake.</h2>
+        <p>Each design begins with the feeling of being beside the water: warm linen, salty air, a table covered in shells, friends nearby and time moving slowly.</p>
+        <p>The collection is handmade in small batches, using shell-inspired shapes, soft metallics and natural materials that feel effortless but considered.</p>
+        <a class="button ghost" href="#contact">Ask about custom pieces</a>
+      </div>
+    </section>
+
+    <section class="editorial section" id="journal">
+      <div class="section-heading narrow">
+        <p class="eyebrow">Coastal notes</p>
+        <h2>Made for linen shirts, sea air and late golden light.</h2>
+      </div>
+      
+    </section>
+
+    <section class="newsletter section" id="contact">
+      <p class="eyebrow">Stay by the shore</p>
+      <h2>Join for new drops, market dates and custom order openings.</h2>
+      <form class="signup-form" action="https://formspree.io/f/your-form-id" method="POST">
+        <label class="sr-only" for="email">Email address</label>
+        <input id="email" name="email" type="email" placeholder="Email address" required>
+        <button class="button" type="submit">Join the list</button>
+      </form>
+      <p class="form-note">Change the Formspree link in the HTML when you are ready.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Tide & Shell</p>
+    <div>
+      <a href="#top">Back to top</a>
+      <a href="https://instagram.com/" target="_blank" rel="noreferrer">Instagram</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
