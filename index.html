@@ -11,7 +11,8 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="site-header" id="top">
+  <div id="top"></div>
+  <header class="site-header">
     <a class="logo" href="#top">Tide & Shell</a>
     <nav class="nav" aria-label="Main navigation">
       <a href="#shop">Shop</a>
@@ -110,7 +111,7 @@
   <footer class="footer">
     <p>© 2026 Tide & Shell</p>
     <div>
-      <a href="#top">Back to top</a>
+     <a href="#top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">Back to top</a>
       <a href="https://instagram.com/" target="_blank" rel="noreferrer">Instagram</a>
     </div>
   </footer>
